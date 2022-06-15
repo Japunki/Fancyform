@@ -1,1 +1,13 @@
-
+div {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    margin: auto;
+}
+a {
+    color: blue;
+}
+body {
+    background-color: peachpuff;
+}
