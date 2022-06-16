@@ -1,13 +1,35 @@
+.imagecontainer {
+    margin-top: 10vh;
+    border-radius: 50%;
+    background-color: aliceblue;
+    /* padding-top: 13px; */
+    width: 100px;
+}
+.imageparent {
+    border-radius: 0%;
+    width: auto;
+    height: auto;
+}
 div {
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 10px;
-    width: 300px;
+    width: 500px;
     margin: auto;
 }
 a {
     color: blue;
 }
 body {
-    background-color: peachpuff;
+    background-color: white;
+}
+.email {
+    background-image:url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    text-indent: 200px;
+}
+.Emailtext {
+    position: left;
+    padding-right: 30px;
 }
