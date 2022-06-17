@@ -1,3 +1,9 @@
+:root {
+    --textFontSize: 12.5px;
+    --textInputWidth: 500px;
+    --textInputPadding: 10px;
+}
+
 .imagecontainer {
     margin-top: 10vh;
     border-radius: 50%;
@@ -23,7 +29,7 @@ body {
     background-color: white;
 }
 .email {
-    background-image:url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-image:;
     background-size:contain;
     background-repeat: no-repeat;
     width: 500px;
@@ -32,4 +38,52 @@ body {
 .Emailtext {
     position: left;
     padding-right: 30px;
+}
+.Hello {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10;
+    width: fit-content;
+}
+.After_hello {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.input {
+    width: var(--textInputWidth);
+    padding: var(--textInputPadding);
+    border-color: rgb(176, 225, 209);
+    border-width: 1px;
+    background-color: rgb(236, 255, 255);
+}
+::placeholder {
+    text-align: left;
+}
+
+.input:hover {
+    border-color: rgb(0, 114, 139);
+}
+.checkbox {
+    font-size: var(--textFontSize);
+    width: 100px;
+    margin: auto;
+    color: rgb(173, 177, 230);
+}
+.recovery {
+    font-size: var(--textFontSize);
+    color: rgb(178, 173, 230);
+}
+.button {
+    width: var(--textInputWidth);
+    padding: var(--textInputPadding);
+    color: white;
+    cursor: pointer;
+    background-color: rgb(16, 19, 238) ;
+}
+.final {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10;
+    padding-top: 175px;
 }
